@@ -17,7 +17,7 @@ bin/setup
 The program can be run via `rake run`:
 
 ```sh
-  rake run <path to the sudoku file to validate>
+  rake run <path to the rsudoku file to validate>
 ```
 
 Depending on the contents of the sudoku puzzle, the program should return a different result
@@ -33,7 +33,7 @@ A puzzle is valid if:
 3. Every 9x9 square has no repeated numbers
 4. Only numbers 1 - 9 are used to fill the puzzle (or 0 for empty cells)
 
-## Implementation
+## Implementaticd on
 
 Additions should be written to `lib/validator.rb` within the method `validate`, the creation of additional methods and classes is encouraged.
 

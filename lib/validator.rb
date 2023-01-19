@@ -1,3 +1,4 @@
+require_relative 'ValidatorClass'
 class Validator
   def initialize(puzzle_string)
     @puzzle_string = puzzle_string
@@ -8,6 +9,6 @@ class Validator
   end
 
   def validate
-    # Your code here
+    SudokuValidator.new(@puzzle_string).validate
   end
 end
